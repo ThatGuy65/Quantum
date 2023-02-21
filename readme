@@ -1,0 +1,14 @@
+For this project, i plan to pick back up my research into Quantum Music Making, via the use of a recurrent neural network if possible. 
+I will be using alot of the knowledge gained  in this course to augment my project, such as the qubit and leveraging qBraid's capabilities 
+I will need to somehow use the concept of quantum superposition to simulte the randomness that procedurally generated songs can provide 
+In order to do this, I will mke use of the content provided in the conversation seen here: 
+https://youtu.be/P4FFdKCxYas 
+I will also be make use of some of the research papers preseneted here: 
+D. Koch, L. Wessing, and P. M. Alsing, “Introduction to Coding Quantum Algorithms: A Tutorial Series Using Pyquil,” Information Directorate, March 2005. Available: arxiv, https://arxiv.org/pdf/1903.05195.pdf. [Accessed June 2019]  
+
+D. Deahl, “How AI-Generated Music Is Changing The Way Hits Are Made,” theverge.com, Aug. 31, 2018. [Online]. Available: https://www.theverge.com/2018/8/31/17777008/artificial-intelligence-taryn-southern-amper-music.  [Accessed June 2019].
+
+N. Kotecha and P. Young, “Generating Music using an LSTM Network,” Columbia University, April 2018. Available: arxiv, https://arxiv.org/pdf/papers/1804/1804.07300.pdf.  [Accessed June 2019]
+
+N. Killoran, T. R. Bromley, J. Arrazola, M. Schuld, N. Quesada, and S. Lloyd, “Continuous-variable quantum neural networks,” Massachusetts Institute of Technology, June 2018. Available: arxiv, https://arxiv.org/pdf/1806.06871.pdf. [Accessed June 2019]  
+S. Sigurður, “How to Generate Music using a LSTM Neural Network in Keras,” A Medium Corporation, Dec. 7, 2017. [Online]. Available: https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5.  [Accessed June 12, 2019].
