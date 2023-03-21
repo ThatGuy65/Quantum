@@ -1,0 +1,48 @@
+
+Complete all exercises at your own pace and using original work. Please do not copy/paste code you find online or from your neighbors. You may discuss solutions but make sure that you write your own answer. For references on available functions/methods, consult the Qiskit documentation at https://qiskit.org/documentation/.
+
+Please complete these exercises inside your personal GitHub repository for the class. After each few problems, you should make sure to save your work and commit changes to your GitHub repository. You can do this using the following steps:
+
+Step 1) Open a terminal.
+
+Step 2) cd to the folder where your GitHub repository is located.
+
+Step 3) Run git add . to add all changes in your repository.
+
+Step 4) Run git commit -m 'write a descriptive message to remind yourself/others of the changes you are committing'.
+
+Step 5) Run git push to upload your changes to GitHub.
+
+Step 6) Open your repository on GitHub to confirm changes have been committed.
+
+Good luck!
+
+Create a quantum circuit with Qiskit that consists of a single qubit and a Hadamard gate applied to it. Print the circuit and draw its visualization using the draw method.
+ 
+Simulate the above circuit using the Aer qasm_simulator provided by Qiskit using 1000 shots. Print the result of your shots. Does it make sense?
+ 
+ 
+Simulate the above circuit using the Aer statevector_simulator provided by Qiskit. Print the resulting statevector.
+ 
+Create a function that takes a single qubit quantum circuit as input and returns the probability of measuring the qubit in the state |0⟩.
+ 
+ 
+Create a quantum circuit with Qiskit that consists of two qubits and a CNOT gate applied to them. Print the circuit and draw its visualization using the draw method.
+ 
+Simulate the above circuit using the Aer qasm_simulator provided by Qiskit. Print the resulting counts using the counts method.
+ 
+ 
+Did you only get '00' counts from the previous measurement? If so, what single gate can you add to the beginning of the circuit such that measurements always give '11'?
+ 
+What can I change such that this creates a Bell state? Do this and then perform a measurement using both qasm_simulator and statevector_simulator. For the statevector simulator, make sure you understand the output. Describe in words the difference between these two simulators.
+ 
+ 
+a) Write any two-qubit circuit on paper. b) Carry out the by-hand matrix multiplication to find both the net unitary matrix and final state. c) Code the 2 qubit circuit using qiskit d) Use the unitary_simulator and statevector_simulator to extract the net unitary matrix and final state to compare with your by-hand result.
+
+ 
+Using Qiskit, write a two-qubit circuit where a single Hadamard acts on the 0th qubit and a single X acts on the 1st qubit. Extract the unitary matrix for this circuit using code and calculate this matrix by-hand.
+ 
+Prove using both by-hand calculation and qiskit/numpy that the single-qubit circuits (1: HZH, 2: RX(pi) 3: X) are equivalent. Remember that global phases can be neglected.
+ 
+ 
+(Extra) Do the same for the circuit identities listed at https://qiskit.org/textbook/ch-gates/more-circuit-identities.html
